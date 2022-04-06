@@ -4,25 +4,31 @@
        font-family: 'Montserrat', sans-serif;
 }
 body {
-       background: linear-gradient(60deg, rgb(230, 89, 89), white);
+       background-image: url("textura.jpg");
        background-repeat: no-repeat;
        background-attachment: fixed;
        justify-content: center;
+       background-size: cover;
 
 }
 .fondodiv {
        background-color:antiquewhite;
        width: 40%;
        height: 100%;
-       position: relative;left: 350px; top: 10px;
+       position: relative;left: 350px; top: 22px;
        display: flex;
        flex-direction: column;
        justify-content: center;
        align-items: center;
        padding: 15px;
+       box-shadow: 1px 1px 4px 4px #474544;
+       font-size: 13px;
 }
 
 h1{
+       color: rgb(15, 15, 73);
+}
+h3{
        color: rgb(15, 15, 73);
 }
 
@@ -81,4 +87,13 @@ label.sexo {
 
 input[type="button"] {
        padding: 8px;
+       background-color: rgb(15, 15, 73);
+       color: white;
+       font-weight: bold;
+       letter-spacing: 1.5px;
+}
+
+button{
+       background-color: rgb(15, 15, 73); 
+       border-radius: 4px;
 }
